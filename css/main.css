@@ -1,0 +1,205 @@
+/***** BASE STYLES *****/
+
+body {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul, ol {
+  padding: 0;
+  margin-left: 0;
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	width: 398px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold; 
+	line-height: 23px;
+	padding: 20px 0px 20px 0px;
+	text-transform: uppercase;
+}
+
+
+header h1 span {
+	color: #77a466;
+}
+
+nav {
+	float: right;
+	padding-top: 15px;
+}
+
+nav ul li{
+	color: #77a466;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 12px 0 10px 15px;
+    text-transform: uppercase;
+}
+
+
+/***** COMPANY DESCRIPTION SECTION *****/
+
+#top-section {
+	clear: both;
+	margin: 0 auto;
+}
+
+img {
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+}
+
+#description h2 {
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+#description p {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 25px;
+} 
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section {
+	clear: both;
+	margin: 40px auto;
+}
+
+section h3 {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.indent-h3 {
+	padding-left: 15px;
+}
+
+#third-width-specials {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-top: solid;
+	border-top-color: #dedbdc;
+	border-top-width: 3px;
+	border-right: solid;
+	border-right-color: #dedbdc;
+	border-right-width: 3px;
+	border-bottom: solid;
+	border-bottom-color: #dedbdc;
+	border-bottom-width: 3px;
+}
+
+#third-width-specials ul li {
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	list-style: none; 
+	padding: 0 0 20px 0;
+}
+
+#third-width-reviews {
+	margin-bottom: 10px;
+	padding-bottom: 21px;
+	border-top: solid;
+	border-top-color: #dedbdc;
+	border-top-width: 3px;
+	border-bottom: solid;
+	border-bottom-color: #dedbdc;
+	border-bottom-width: 3px;
+	border-right: solid;
+	border-right-color: #dedbdc;
+	border-right-width: 3px;
+}
+
+#third-width-reviews p {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21px;
+	padding: 0 15px 0 15px;
+}
+
+#third-width-contact {
+	margin-bottom: 10px;
+	padding-bottom: 57px;
+	border-top: solid;
+	border-top-color: #dedbdc;
+	border-top-width: 3px;
+	border-bottom: solid;
+	border-bottom-color: #dedbdc;
+	border-bottom-width: 3px
+}
+
+#third-width-contact p {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 23px;
+	padding-left: 15px;
+}
+
+/***** FOOTER *****/
+
+footer {
+	clear: both;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 23px;
+	text-align: middle;
+	text-transform: uppercase;
+}
+
+footer span {
+	color: #77a466;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	text-transform: lowercase; 
+}
+
